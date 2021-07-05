@@ -13,32 +13,32 @@ class Main
     System.out.println();
 
     System.out.println("Test 1: Natural number testcase");
-    System.out.println( Solution.sumOfNumsDivByThreeOrFive(10) );
-    System.out.println( Solution.sumOfNumsDivByThreeOrFiveOptimal(10) );
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(10) );
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(10) );
 
     System.out.println();
 
     System.out.println("Test 2: Natural number testcase");
-    System.out.println( Solution.sumOfNumsDivByThreeOrFive(1000) );
-    System.out.println( Solution.sumOfNumsDivByThreeOrFiveOptimal(1000) );
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(1000) );
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(1000) );
 
     System.out.println();
 
     System.out.println("Test 3: Zero number testcase");
-    System.out.println( Solution.sumOfNumsDivByThreeOrFive(0) );
-    System.out.println( Solution.sumOfNumsDivByThreeOrFiveOptimal(0) );
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(0) );
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(0) );
 
     System.out.println();
 
     System.out.println("Test 4: Negative number testcase");
-    System.out.println( Solution.sumOfNumsDivByThreeOrFive(-10) );
-    System.out.println( Solution.sumOfNumsDivByThreeOrFiveOptimal(-10) );
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(-10) );
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(-10) );
 
     System.out.println();
 
     System.out.println("Test 5: Fraction testcase");
-    System.out.println( Solution.sumOfNumsDivByThreeOrFive(21/2) );
-    System.out.println( Solution.sumOfNumsDivByThreeOrFiveOptimal(21/2) ); 
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(21/2) );
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(21/2) ); 
 
     System.out.println();
 
@@ -50,7 +50,7 @@ class Main
     
     System.out.println();
 
-    System.out.println( Solution.sumOfNumsDivByThreeOrFive(num) );
-    System.out.println( Solution.sumOfNumsDivByThreeOrFive(num) ); 
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(num) );
+    System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(num) ); 
   }
 }
