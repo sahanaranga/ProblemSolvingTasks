@@ -26,7 +26,7 @@ class SumOfNumsDivByThreeOrFiveSolution
   * Time complexity = O(1)
   *
   * Example: if num = 10, then the numbers that are divisible by 3 or 5 are 3, 5, 6 and 9. The sum of these numbers is 23.
-  ** we can see that 3 + 5 + 6 + 9 can be written as 3 (1 + 2 + 3) + 5 (1) 
+  ** It is found that 3 + 5 + 6 + 9 can be written as 3 (1 + 2 + 3) + 5 (1) 
   ** This is 3 * (n * (n-1))/2 + 5 (m * (m-1))/2, where n is num/3 and m is num/5
   */
   static int findSumOfNumsDivByThreeOrFiveOptimal (int num) 
