@@ -1,13 +1,13 @@
 /** 
   * time complexity = O(n^1/2)
   *
-  * By iterating up the square root value of num, we will be able to find all the factors of num
-  * Example: say num = 24
+  * By iterating up the square root value of num, all the factors of num can be found
+  * Example: num = 24
   ** 1 x 24 = 24
   ** 2 x 12 = 24
   ** 3 x 8 = 24
   ** 4 x 6 = 24
-  * we can see that by iterating upto to 4 (sqrt(24) equates to 4), we will be able to find all the factors of 24 
+  * by iterating upto to 4 (sqrt(24) equates to 4), all the factors of 24 can be found
   */
 
 class FactorsOfNumberSolution
