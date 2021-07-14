@@ -10,39 +10,28 @@ class Main
 {
   public static void main(String[] args) 
   {
-    System.out.println();
-
-    System.out.println("Test 1: Natural number testcase");
+    System.System.out.println("\nTest 1: Natural number testcase");
     System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(10) );
     System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(10) );
 
-    System.out.println();
-
-    System.out.println("Test 2: Natural number testcase");
+    System.out.println("\nTest 2: Natural number testcase");
     System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(1000) );
     System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(1000) );
 
-    System.out.println();
-
-    System.out.println("Test 3: Zero number testcase");
+    System.out.println("\nTest 3: Zero number testcase");
     System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(0) );
     System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(0) );
 
-    System.out.println();
-
-    System.out.println("Test 4: Negative number testcase");
+    System.out.println("\nTest 4: Negative number testcase");
     System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(-10) );
     System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(-10) );
 
-    System.out.println();
-
-    System.out.println("Test 5: Fraction testcase");
+    System.out.println("\nTest 5: Fraction testcase");
     System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFive(21/2) );
     System.out.println( SumOfNumsDivByThreeOrFiveSolution.findSumOfNumsDivByThreeOrFiveOptimal(21/2) ); 
 
-    System.out.println();
-
-    System.out.println("Test 6: Random testcase");
+    
+    System.out.println("\nTest 6: Random testcase");
 
     Random random = new Random();
     int num = random.nextInt(10000 + 10000) - 10000;
