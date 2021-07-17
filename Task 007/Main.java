@@ -11,38 +11,27 @@ class Main
 {
   public static void main(String[] args) 
   {
-    System.out.println();
-
-    System.out.println("Test 1: Positive testcase");
+    System.out.println("\nTest 1: Positive testcase");
     System.out.println( FirstUniqueCharSolution.findFirstUniqueCharMap("sahanas") );
     System.out.println( FirstUniqueCharSolution.findFirstUniqueCharArray("sahanas") );
     System.out.println( FirstUniqueCharSolution.findFirstUniqueChar("sahanas") );
 
-    System.out.println();
-
-    System.out.println("Test 2: Negative testcase");
+    System.out.println("\nTest 2: Negative testcase");
     System.out.println( FirstUniqueCharSolution.findFirstUniqueCharMap("amma") );
     System.out.println( FirstUniqueCharSolution.findFirstUniqueCharArray("amma") );
     System.out.println( FirstUniqueCharSolution.findFirstUniqueChar("amma") );
 
-    System.out.println();
-
-    System.out.println("Test 3: Empty String testcase");
+    System.out.println("\nTest 3: Empty String testcase");
     System.out.println( FirstUniqueCharSolution.findFirstUniqueCharMap("") );
     System.out.println( FirstUniqueCharSolution.findFirstUniqueCharArray("") );
     System.out.println( FirstUniqueCharSolution.findFirstUniqueChar("") );
 
-    System.out.println();
-
-    System.out.println("Test 4: String of Length 1 testcase");
+    System.out.println("\nTest 4: String of Length 1 testcase");
     System.out.println( FirstUniqueCharSolution.findFirstUniqueCharMap("a") );
     System.out.println( FirstUniqueCharSolution.findFirstUniqueCharArray("a") );
     System.out.println( FirstUniqueCharSolution.findFirstUniqueChar("a") );
 
-    System.out.println();
-    
-    
-    System.out.println("Test 5: Random testcase");
+    System.out.println("\nTest 5: Random testcase");
     
     Random random = new Random();
 
@@ -52,9 +41,8 @@ class Main
     for (int i = 0; i < strLength; i++)
       inputStr += (char) (random.nextInt(106 - 97) + 97);
 
-    System.out.println("Printing the input string: " + inputStr);
+    System.out.println("Printing the input string: " + inputStr + "\n");
 
-    System.out.println();
     System.out.println( FirstUniqueCharSolution.findFirstUniqueCharMap(inputStr) );
     System.out.println( FirstUniqueCharSolution.findFirstUniqueCharArray(inputStr) );
     System.out.println( FirstUniqueCharSolution.findFirstUniqueChar(inputStr) );
