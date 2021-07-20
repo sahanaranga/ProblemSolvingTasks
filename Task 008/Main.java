@@ -10,34 +10,26 @@ class Main
 {
   public static void main(String[] args) 
   {
-    System.out.println();
-
-    System.out.println("Test 1: Only positive integers testcase");
+    System.out.println("\nTest 1: Only positive integers testcase");
     int numArray1[] = {1, 2, 5, 7};
 
     SqOfArraySolution.findSqOfArray( numArray1 );
     SqOfArraySolution.findSqOfArrayWithPtrs( numArray1 );
 
-    System.out.println();
-
-    System.out.println("Test 2: Positive & negative integers testcase");
+    System.out.println("\nTest 2: Positive & negative integers testcase");
     int numArray2[] = {-8, -6, 1, 2, 5, 7};
 
     SqOfArraySolution.findSqOfArray( numArray2 );
     SqOfArraySolution.findSqOfArrayWithPtrs( numArray2 );
 
-    System.out.println();
-
-    System.out.println("Test 3: Only negative integers testcase");
+    System.out.println("\nTest 3: Only negative integers testcase");
     int numArray3[] = {-8, -7, -6, -3, -1};
 
     SqOfArraySolution.findSqOfArray( numArray3 );
     SqOfArraySolution.findSqOfArrayWithPtrs( numArray3 );
 
-    System.out.println();
-
-
-    System.out.println("Test 4: Random testcase");
+    
+    System.out.println("\nTest 4: Random testcase");
 
     Random random =  new Random();
 
@@ -54,9 +46,8 @@ class Main
     for (int i = 0; i < arrayLen; i++)
       System.out.print(numArray4[i] + " ");  
 
-    System.out.println();
-
-    System.out.println();
+    System.out.println("\n");
+    
     SqOfArraySolution.findSqOfArray( numArray4 );
     SqOfArraySolution.findSqOfArrayWithPtrs( numArray4 );
   }
